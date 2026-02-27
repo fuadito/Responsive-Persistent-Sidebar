@@ -72,6 +72,6 @@ This project was built as part of my Frontend Internship learning journey with g
 ---
 
 ## 📎 Live Demo
-
+https://fuadito.github.io/Responsive-Persistent-Sidebar/
 
 
