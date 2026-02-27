@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible sidebar</title>
+
+    <!-- Font Awesome Icons-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+     <!--External CSS-->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="sidebar" id="sidebar">
+        <div class="logo">
+            <span class="logo-text">Accessibles</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#" data-tooltip ="Home">
+               <span class="icon"><i class="fas fa-home"></i></span> 
+                <span class="link-text">Home</span>
+
+                </a>
+            </li>
+            <li>
+              <a href="#" data-tooltip ="Profile">
+              <span class="icon"><i class="fas fa-user"></i></span>
+                <span class="link-text">Profile</span>
+              </a>  
+            </li>
+
+            <li>
+              <a href="#" data-tooltip ="Messages">
+               <span class="icon"><i class="fas fa-envelope"></i></span>
+                <span class="link-text">Messages</span>
+              </a>  
+            </li>
+            <li>
+              <a href="#" data-tooltip="Analytics">
+                <span class="icon"><i class="fas fa-chart-line"></i></span>
+                <span class="link-text">Analytics</span>
+              </a>  
+            </li>
+
+            <li>
+              <a href="#" data-tooltip ="Settings">
+              <span class="icon"><i class="fas fa-cog"></i></span>
+                <span class="link-text">Settings</span>
+              </a>  
+            </li>
+        </ul>
+
+        <button class="toggle-btn" id="toggleBtn">
+            <i class="fas fa-chevron-left" id="toggleIcon"></i>
+        </button>
+    </div>
+
+    <!--External JS-->
+    <script src="script.js"></script>
+</body>
+</html>
